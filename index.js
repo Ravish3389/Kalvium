@@ -9,7 +9,7 @@ app.use(express.json());
 
 async function connectToDatabase() {
     try {
-        await mongoose.connect('mongodb+srv://kr9532:Chinni0107@cluster0.1zi7bon.mongodb.net/Kalvium', {
+        await mongoose.connect('mongodb+srv://ll7626:Ravi$3389@cluster0.1zi7bon.mongodb.net/Kalvium', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
